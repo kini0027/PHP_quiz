@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 50%;
+}
+
+table tr {
+    border-bottom: solid 1px #eee;
+    cursor: pointer;
+}
+
+table tr:hover {
+    background-color: #d4f0fd;
+}
+
+table td {
+    text-align: center;
+    min-width: 100px;
+    width: 25%;
+    padding: 15px 0;
+}
+
+/*~ tableの装飾*/
+/*tableの見出しを見やすくする ~*/
+
+.main {
+    background-color: #beeaff;
+}
